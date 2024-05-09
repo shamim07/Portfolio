@@ -1,0 +1,53 @@
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+ a{
+    text-decoration: none;
+    color: #d9d9d9;
+ }
+ ul{list-style: none;}
+ body{
+   background-color: black;
+   font-family: "Inter", sans-serif;
+   color: #d9d9d9;
+ }
+ 
+ .container{
+   background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+   background-color: #261d1f ;
+ } 
+
+ 
+ 
+ #me{
+height: 300px;
+width: 300px;
+border-radius: 50%;
+background-color:#b6a470;
+filter: blur(200px);
+position: absolute;
+top: 200px;
+right:300px ;
+ }
+ .glass{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+ }
+ .glas{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+ }
